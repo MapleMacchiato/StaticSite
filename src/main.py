@@ -12,7 +12,6 @@ def main():
 def copy_dir(source, target):
     source_items = os.listdir(source)
     target_items = os.listdir(target)
-    print(f"SOURCE{source_items} TARGET{target_items}")
     for item in source_items:
         source_path = os.path.join(source, item)
         target_path = os.path.join(target, item)
